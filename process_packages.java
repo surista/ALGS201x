@@ -29,7 +29,10 @@ class Buffer {
     }
 
     public Response Process(Request request) {
-        // write your code here
+        int arrival_time = request.arrival_time;
+
+        while (!finish_time_.isEmpty() && )
+        System.out.println(finish_time_);
         return new Response(false, -1);
     }
 
